@@ -2,11 +2,13 @@
 # Write a function to print "hello_USERNAME!" USERNAME is the input of the 
 # function.
 
-def hello_username(user_name):
+def hello_username():
     """Print simple message saying hello to username."""
+    print('Please enter your username: ')
+    user_name = input()
     print(f"hello_{user_name.upper()}!")
 
-hello_username('username')
+hello_username()
 
 # Question 2:
 # Write a Python function, first_odds that prints the odd numbers from 1-100
